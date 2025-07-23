@@ -134,6 +134,7 @@ ul li a{
 .btn{
     width: 100%;
     padding: 26px 50px;
+    font-size: 1rem;
     background-color: #e85907;
     color: white;
     font-family: "Inter", sans-serif;
@@ -175,6 +176,16 @@ ul li a{
     .banner-description{
          font-size: 0.8rem;
          
+    }
+    .section-description{
+        margin: 0 28px;
+    }
+    .flower-cart-container{
+        grid-template-columns: repeat(2,1fr);
+        padding: 0 16px;
+    }
+    .btn{
+        font-size: 0.8rem;
     }
 
 }
