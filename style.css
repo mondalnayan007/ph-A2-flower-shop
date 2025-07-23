@@ -19,5 +19,62 @@
 }
 
 
+/* Shared styles */
 
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+.primary-color{
+    color: #e85907;
+}
+.secondary-color{
+    color: #00000080;
+}
+
+
+/* body style */
+
+.margin{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+      /*  nav bar style */
+
+nav{
+    justify-content: space-between;
+}
+
+ul{
+    justify-content: space-between;
+    gap: 45px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* responsive styles for mobile device */
+
+@media screen and (max-width : 576px) {
+    .menu{
+        display: none;
+    }
+    nav{
+        margin: 0 16px;
+        
+    }
+    ul{
+            font-weight: 400;
+    }
+}
 
