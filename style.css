@@ -145,10 +145,17 @@ nav ul li a{
 }
 
 /* plants-lover section style */
-
+.plants-lover-section{
+    margin-top: 210px;
+    
+}
 .plants-lover-container{
     justify-content: space-between;
-    gap: 80px;
+    gap: 60px;
+}
+.plants-lover-container img{
+    width: 100%;
+   
 }
 .plants-lover-description{
     margin: 38px 0;
@@ -157,12 +164,36 @@ nav ul li a{
     font-family: "Noto Sans", sans-serif;
     font-size: 3.125rem;
     font-weight: 700;
+    margin: 0;
 }
 .unorderd-list li{
     font-size: 1.375rem;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     margin: 20px 0;
+}
+.badge{
+    height: 286px;
+    width: 286px;
+    position: relative;
+    top: -740px;
+    left: 350px;
+    animation: spin 10s 1s infinite linear;
+    
+    
+}
+/* .badge:hover{
+    transform: rotate(350deg);
+    
+} */
+@keyframes spin {
+
+   from{
+      transform: rotate(0deg);
+   }
+   to{
+      transform: rotate(360deg);
+   }
 }
 
 
