@@ -147,14 +147,19 @@ nav ul li a{
 /* plants-lover section style */
 .plants-lover-section{
     margin-top: 210px;
+    margin-bottom: 0;
+    
+   
     
 }
 .plants-lover-container{
-    justify-content: space-between;
+    justify-content: center;
     gap: 60px;
+    
 }
 .plants-lover-container img{
     width: 100%;
+    height: 100%;
    
 }
 .plants-lover-description{
@@ -173,15 +178,97 @@ nav ul li a{
     margin: 20px 0;
 }
 .badge{
-    height: 286px;
-    width: 286px;
-    position: relative;
-    top: -740px;
-    left: 350px;
-    animation: spin 10s 1s infinite linear;
+
+     top: 2072px;
+    left: 360px;
+   position: absolute;
+   
     
     
 }
+.spin{
+    
+    
+    height: 286px;
+    width: 286px;
+    animation: spin 10s 1s infinite linear;
+    
+}
+
+
+/* Deals section style */
+
+.deals-title{
+    margin: 120px 0;
+}
+
+.deals-model-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 28px;
+    
+}
+.model-1{
+    height: 423px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+    
+   
+}
+.df{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.item-1{
+    height: 200px;
+    background: url('assets/deal-bloom.png') , #00000066;
+    background-blend-mode: multiply; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.item-2{
+     height: 200px;
+    background: url('assets/deal-ana.png') , #00000066;
+    background-blend-mode: multiply; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.model-2{
+    height: 423px;
+   grid-column: 4/2;
+    background: url('assets/deal-zabo.png'), #00000066;
+    background-blend-mode: multiply; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.bloom, .ana{
+    font-size: 1.25rem;
+    color: white;
+}
+.zabo{
+    font-size: 2.5rem;
+    color: white;
+}
+.zabo-btn{
+    font-size: 1.25rem;
+}
+.btn-deals{
+    background: transparent;
+    border: none;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    cursor: pointer;
+   
+}
+
 
 @keyframes spin {
 
