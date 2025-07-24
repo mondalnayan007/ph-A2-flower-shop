@@ -182,14 +182,11 @@ nav ul li a{
     
     
 }
-/* .badge:hover{
-    transform: rotate(350deg);
-    
-} */
+
 @keyframes spin {
 
    from{
-      transform: rotate(0deg);
+      transform: rotate(0);
    }
    to{
       transform: rotate(360deg);
@@ -237,6 +234,24 @@ nav ul li a{
     }
     .btn{
         font-size: 0.8rem;
+    }
+    .plants-lover-section{
+         margin: 42px 16px;
+    
+    }
+    .plants-lover-container{
+        flex-direction: column;
+        gap: 20px;
+       
+    }
+    .plant-lover-title{
+        font-size: 1.375rem;
+    }
+    .unorderd-list li{
+        font-size: 0.8rem;
+    }
+    .badge{
+        display: none;
     }
 
 }
