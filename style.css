@@ -133,7 +133,7 @@ nav ul li a{
 }
 .btn{
     width: 100%;
-    padding: 26px 50px;
+    padding: 20px 50px;
     font-size: 1rem;
     background-color: #e85907;
     color: white;
@@ -269,6 +269,47 @@ nav ul li a{
    
 }
 
+/* News-letter section style */
+
+.news-letter{
+    background: url('assets/news-letter-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 460px;
+    margin-top: 120px;
+    
+
+}
+.inner{
+    
+    justify-content: center;
+    flex-direction: column;
+    padding: 120px 200px;
+}
+.news-letter-title{
+    font-family: "Noto", sans-serif;
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: white;
+}
+.input{
+    width: 100%;
+   
+   
+}
+.input input{
+    width: 80%;
+    padding: 20px 20px;
+    outline: none;
+    font-size: 1rem;
+    
+}
+.input .btn{
+    margin: 0;
+    width: 20%;
+    
+    
+}
 
 @keyframes spin {
 
