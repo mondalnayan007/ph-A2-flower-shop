@@ -321,6 +321,41 @@ nav ul li a{
 }
 
 
+/* Footer section style */
+
+.footer-section{
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px 0;
+}
+.title {
+    font-size: 1.2rem;
+}
+
+.footer-col-2>ul>li{
+    list-style-type: none;
+    margin-bottom: 14px;
+    
+    font-family: "Inter", sans-serif;
+    
+}
+.footer-col-2>ul>li>a{
+    text-decoration: none;
+    color: #00000080;
+}
+.footer-col-2>ul{
+    margin: 0;
+    padding: 0;
+}
+.icons{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+   
+    gap: 30px;
+}
+
 
 
 /* responsive styles for mobile device */
@@ -409,6 +444,15 @@ nav ul li a{
     }
     .news-btn , .news-input{
         padding: 14px;
+    }
+
+    .footer-section{
+        grid-template-columns: 1fr;
+        padding: 0 16px;
+        margin: 40px 0;
+    }
+    .icons{
+        justify-content: start;
     }
 
 }
