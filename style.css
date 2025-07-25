@@ -325,8 +325,8 @@ nav ul li a{
 
 .footer-section{
     display: grid;
-
     grid-template-columns: repeat(4,1fr);
+    gap: 30px;
     padding: 50px 0;
 }
 .title {
@@ -453,6 +453,10 @@ nav ul li a{
     }
     .icons{
         justify-content: start;
+        margin: 16px 0;
+    }
+    .footer-col-2>ul>li{
+        margin-bottom: 20px;
     }
 
 }
